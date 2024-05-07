@@ -2100,7 +2100,7 @@
 
 .background-video-12 {
   z-index: 1;
-  aspect-ratio: 9 / 16;
+  aspect-ratio: 16 / 9;
   object-fit: cover;
   width: 65vw;
   height: auto;
