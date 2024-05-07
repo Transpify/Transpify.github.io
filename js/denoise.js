@@ -11,10 +11,10 @@ document.addEventListener("DOMContentLoaded", function () {
   videoElement.autoplay = true; // Attempt to autoplay the video
 
   const originalAudioElement = new Audio(
-    "videos/viralme_original_audio.mp3"
+    "https://viralmedata.blob.core.windows.net/website-assets/viralme_original_audio.mp3?sp=r&st=2024-05-07T11:01:14Z&se=2124-05-07T19:01:14Z&spr=https&sv=2022-11-02&sr=b&sig=2yQCXcQLYRHG1vuHBbPnV%2FyrUpNFhKOclQe1N3NtskE%3D"
   );
   const denoisedAudioElement = new Audio(
-    "videos/viralme_original_audio.mp3"
+    "https://viralmedata.blob.core.windows.net/website-assets/viralme_original_audio.mp3?sp=r&st=2024-05-07T11:01:14Z&se=2124-05-07T19:01:14Z&spr=https&sv=2022-11-02&sr=b&sig=2yQCXcQLYRHG1vuHBbPnV%2FyrUpNFhKOclQe1N3NtskE%3D"
   );
 
   originalAudioElement.muted = true; // Mute the original audio
@@ -49,7 +49,7 @@ function syncAudioWithVideo() {
   // Click event to toggle mute state when video is clicked
   videoElement.addEventListener("click", function () {
     // Check which tab is active
-    const isDenoisedAudioActive = document.querySelector("#tab1").checked;
+    const isDenoisedAudioActive = document.querySelector("#audio-denoise-tab1").checked;
 
     // Ensure the video stays muted
     videoElement.muted = true;
@@ -83,14 +83,14 @@ function syncAudioWithVideo() {
   videoElement.addEventListener("timeupdate", syncAudioWithVideo);
 
   // Event listener for tab change
-  document.querySelectorAll(".tab").forEach(function (tab) {
+  document.querySelectorAll(".audio-denoise-tab").forEach(function (tab) {
     tab.addEventListener("change", function () {
-      if (this.id === "tab1") {
+      if (this.id === "audio-denoise-tab1") {
         originalAudioElement.muted = true;
         denoisedAudioElement.muted = false;
         denoisedAudioElement.play();
         syncAudioWithVideo();
-      } else if (this.id === "tab2") {
+      } else if (this.id === "audio-denoise-tab2") {
         denoisedAudioElement.muted = true;
         originalAudioElement.muted = false;
         originalAudioElement.play();
