@@ -236,17 +236,10 @@
   grid-column-gap: 0rem;
   grid-row-gap: 0rem;
   grid-template-rows: auto;
-<<<<<<< HEAD
-  grid-template-columns: 1fr 1fr 1fr;
-  align-items: center;
-  justify-items: stretch;
-  max-width: 1139px;
-=======
   grid-template-columns: .75fr .75fr .75fr .75fr;
   align-items: center;
   justify-items: stretch;
   max-width: 1200px;
->>>>>>> a65ad4b (Laptop Push)
   margin-left: auto;
   margin-right: auto;
   overflow: hidden;
@@ -973,10 +966,7 @@
   margin-bottom: 10px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue, Oxygen, Fira Sans, Droid Sans, sans-serif;
   font-size: 1rem;
-<<<<<<< HEAD
-=======
   font-weight: 500;
->>>>>>> a65ad4b (Laptop Push)
   line-height: 1.5;
 }
 
@@ -1183,11 +1173,7 @@
 
 .uui-pricing08_popular-label-2 {
   z-index: 1;
-<<<<<<< HEAD
-  color: #fff;
-=======
   color: #554a4a;
->>>>>>> a65ad4b (Laptop Push)
   -webkit-text-stroke-color: rgba(255, 255, 255, 0);
   background-color: #fff;
   border-top-left-radius: 1rem;
@@ -2280,13 +2266,10 @@
     font-size: 54px;
   }
 
-<<<<<<< HEAD
-=======
   .uui-pricing08_components {
     max-width: 1300px;
   }
 
->>>>>>> a65ad4b (Laptop Push)
   .uui-testimonial16_rating-wrapper {
     aspect-ratio: 9 / 16;
     min-width: 240px;
@@ -3793,13 +3776,6 @@
   }
 }
 
-<<<<<<< HEAD
-#w-node-e198ffaa-0c36-8341-4e82-93372cbfad12-f6ec9f30, #w-node-e198ffaa-0c36-8341-4e82-93372cbfad38-f6ec9f30 {
-  grid-area: span 1 / span 1 / span 1 / span 1;
-}
-
-#w-node-_680fc80c-47df-710c-2cf3-a19b207de4db-f6ec9f30, #w-node-_680fc80c-47df-710c-2cf3-a19b207de4e0-f6ec9f30, #w-node-_680fc80c-47df-710c-2cf3-a19b207de4e5-f6ec9f30, #w-node-_680fc80c-47df-710c-2cf3-a19b207de4ea-f6ec9f30, #w-node-_680fc80c-47df-710c-2cf3-a19b207de4ef-f6ec9f30, #w-node-_680fc80c-47df-710c-2cf3-a19b207de506-f6ec9f30, #w-node-_680fc80c-47df-710c-2cf3-a19b207de50b-f6ec9f30, #w-node-_680fc80c-47df-710c-2cf3-a19b207de510-f6ec9f30, #w-node-_680fc80c-47df-710c-2cf3-a19b207de515-f6ec9f30, #w-node-_680fc80c-47df-710c-2cf3-a19b207de51a-f6ec9f30, #w-node-_680fc80c-47df-710c-2cf3-a19b207de534-f6ec9f30, #w-node-_680fc80c-47df-710c-2cf3-a19b207de539-f6ec9f30, #w-node-_680fc80c-47df-710c-2cf3-a19b207de53e-f6ec9f30, #w-node-_680fc80c-47df-710c-2cf3-a19b207de543-f6ec9f30, #w-node-_680fc80c-47df-710c-2cf3-a19b207de548-f6ec9f30, #w-node-_680fc80c-47df-710c-2cf3-a19b207de561-f6ec9f30, #w-node-_680fc80c-47df-710c-2cf3-a19b207de566-f6ec9f30, #w-node-_680fc80c-47df-710c-2cf3-a19b207de56b-f6ec9f30, #w-node-_680fc80c-47df-710c-2cf3-a19b207de570-f6ec9f30, #w-node-_680fc80c-47df-710c-2cf3-a19b207de575-f6ec9f30, #w-node-_680fc80c-47df-710c-2cf3-a19b207de58c-f6ec9f30, #w-node-_680fc80c-47df-710c-2cf3-a19b207de591-f6ec9f30, #w-node-_680fc80c-47df-710c-2cf3-a19b207de596-f6ec9f30, #w-node-_680fc80c-47df-710c-2cf3-a19b207de59b-f6ec9f30, #w-node-_680fc80c-47df-710c-2cf3-a19b207de5a0-f6ec9f30, #w-node-_680fc80c-47df-710c-2cf3-a19b207de5ba-f6ec9f30, #w-node-_680fc80c-47df-710c-2cf3-a19b207de5bf-f6ec9f30, #w-node-_680fc80c-47df-710c-2cf3-a19b207de5c4-f6ec9f30, #w-node-_680fc80c-47df-710c-2cf3-a19b207de5c9-f6ec9f30, #w-node-_680fc80c-47df-710c-2cf3-a19b207de5ce-f6ec9f30 {
-=======
 #w-node-e198ffaa-0c36-8341-4e82-93372cbfad12-f6ec9f30, #w-node-e198ffaa-0c36-8341-4e82-93372cbfad38-f6ec9f30, #w-node-_680fc80c-47df-710c-2cf3-a19b207de4cc-f6ec9f30 {
   grid-area: span 1 / span 1 / span 1 / span 1;
 }
@@ -3813,7 +3789,6 @@
 }
 
 #w-node-f9be0aa4-a074-62c3-1f52-9590aee9b613-f6ec9f30, #w-node-f9be0aa4-a074-62c3-1f52-9590aee9b617-f6ec9f30, #w-node-f9be0aa4-a074-62c3-1f52-9590aee9b61b-f6ec9f30, #w-node-f9be0aa4-a074-62c3-1f52-9590aee9b61f-f6ec9f30, #w-node-f9be0aa4-a074-62c3-1f52-9590aee9b623-f6ec9f30, #w-node-_3bc6f185-1009-b947-bce9-b04882929be4-f6ec9f30, #w-node-_3bc6f185-1009-b947-bce9-b04882929be8-f6ec9f30, #w-node-_3bc6f185-1009-b947-bce9-b04882929bec-f6ec9f30, #w-node-_3bc6f185-1009-b947-bce9-b04882929bf0-f6ec9f30, #w-node-_3bc6f185-1009-b947-bce9-b04882929bf4-f6ec9f30, #w-node-db339d20-2313-ae0c-7cd4-8d390cb368e8-f6ec9f30, #w-node-db339d20-2313-ae0c-7cd4-8d390cb368ec-f6ec9f30, #w-node-db339d20-2313-ae0c-7cd4-8d390cb368f0-f6ec9f30, #w-node-db339d20-2313-ae0c-7cd4-8d390cb368f4-f6ec9f30, #w-node-db339d20-2313-ae0c-7cd4-8d390cb368f8-f6ec9f30, #w-node-_8209c59c-f68b-1dd9-25cf-87ff15d32f18-f6ec9f30, #w-node-_8209c59c-f68b-1dd9-25cf-87ff15d32f1c-f6ec9f30, #w-node-_8209c59c-f68b-1dd9-25cf-87ff15d32f20-f6ec9f30, #w-node-_8209c59c-f68b-1dd9-25cf-87ff15d32f24-f6ec9f30, #w-node-_8209c59c-f68b-1dd9-25cf-87ff15d32f28-f6ec9f30 {
->>>>>>> a65ad4b (Laptop Push)
   align-self: start;
 }
 
