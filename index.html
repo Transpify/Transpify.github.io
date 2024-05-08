@@ -141,21 +141,23 @@
     }
 }
 .audio-denoise-tab-wrap {
-    margin-top: 20px;
-    transition: 0.3s box-shadow ease;
-    display: flex;
-    justify-content: center;
-    width: 30vw;
-    max-width: 480px;
-    flex-wrap: wrap;
-    position: relative;
-    list-style: none;
-    background-color: #062045;
-    border: 1px solid rgba(177, 177, 177, 0.91);
-    border-radius: 40px;
-    align-items: center;
-}
-.audio-denoise-tab {
+      margin-top: 20px;
+      transition: 0.3s box-shadow ease;
+      display: flex;
+      justify-content: center;
+      width: 30vw;
+      max-width: 480px;
+      flex-wrap: wrap;
+      position: relative;
+      list-style: none;
+      background-color: #062045;
+      border: 1px solid rgba(177, 177, 177, 0.91);
+      border-radius: 40px;
+      align-items: center;
+      height: 52px;
+    }
+
+    .audio-denoise-tab {
     display: none;
 }
 .audio-denoise-tab:checked+label {
@@ -582,10 +584,10 @@
               <div id="w-node-_2721e658-d310-4029-3205-2945faaa1334-f6ec9f30" data-w-id="2721e658-d310-4029-3205-2945faaa1334" style="opacity:0" class="before-video">
                 <h1 class="heading-28">Orignal</h1>
                 <div data-poster-url="https://uploads-ssl.webflow.com/66032c96e28325f017698dd9/660ea2256f94851cc9d71870_5-poster-00001.jpg" data-video-urls="videos/original_viralme.mp4" data-autoplay="true" data-loop="true" data-wf-ignore="true" class="background-video-8 w-background-video w-background-video-atom"><video id="2721e658-d310-4029-3205-2945faaa1337-video" autoplay="" loop="" style="background-image:url(&quot;https://uploads-ssl.webflow.com/66032c96e28325f017698dd9/660ea2256f94851cc9d71870_5-poster-00001.jpg&quot;)" muted="" playsinline="" data-wf-ignore="true" data-object-fit="cover">
-                    <source src="videos/original_viralme.mp4" data-wf-ignore="true">
+                    <source src="videos/original_viralme.mp4" data-wf-ignore="true"> 
                     <source src="videos/original_viralme.mp4" data-wf-ignore="true">
                   </video></div>
-              </div>
+              </div> 
               <div data-w-id="2721e658-d310-4029-3205-2945faaa1338" style="opacity:0" class="before-video">
                 <h1 id="w-node-_2721e658-d310-4029-3205-2945faaa1339-f6ec9f30" class="heading-28">AI Edited</h1>
                 <a href="#" class="card-2 w-inline-block">
@@ -704,7 +706,7 @@
 .glowing-wrapper-mask {
 	animation: borderTurn 2.5s infinite linear;
 	background-image: conic-gradient(from 0 at 50% 50%, rgba(255, 255, 255, .5) 0deg, rgba(255, 255, 255, 0) 60deg, rgba(255, 255, 255, 0) 310deg, rgba(255, 255, 255, .5) 360deg);
-	background-position: center center;
+	background-position: center center; 
 	background-repeat: no-repeat;
 	background-size: cover
 }
@@ -742,7 +744,7 @@
 	}
 	to {
 		transform: translate(-50%, -50%) rotate(360deg)
-	}
+	} 
 }
                     </style>
               </div>
@@ -1368,7 +1370,7 @@
       </div>
       <div class="w-embed">
         <section class="denoise-section">
-          <div class="main-div">
+          <div class="denoiser-main-div">
             <div class="audio-denoise-tab-wrap">
               <!--  Set Denoised Audio as the preactivated tab  -->
               <input type="radio" id="audio-denoise-tab1" name="audio-denoise-tabGroup1" class="audio-denoise-tab" checked="">
@@ -2392,7 +2394,7 @@
                                     <div class="glowing-wrapper-borders"></div>
                                   </div>
                                   <a href="https://forms.gle/sXNBXfFyg77Jv2ap9" class="glowing-wrapper-button nav w-inline-block">
-                                    <div class="button-text">Subscribe</div>
+                                    <div id = "subscribe" class="button-text">Subscribe</div>
                                   </a>
                                 </div>
                               </div>
@@ -2483,5 +2485,6 @@
       window.location.href = '/comingsoon.html';
     }
   </script>
+  <script defer="" src="js/subscribe.js"></script>
 </body>
 </html>
