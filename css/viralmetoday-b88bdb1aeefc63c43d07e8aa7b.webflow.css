@@ -177,11 +177,36 @@
   text-align: center;
   text-transform: none;
   -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(rgba(0, 0, 0, .47), #fff 18%, rgba(255, 255, 255, .69) 72%, rgba(0, 0, 0, .34));
+  -webkit-background-clip: text;
+  background-clip: text;
+  flex-flow: column;
+  margin-top: 165px;
+  margin-bottom: 15px;
+  font-family: Inter Tight, sans-serif;
+  font-size: 44px;
+  font-weight: 600;
+  line-height: 1.1;
+  display: flex;
+}
+
+.yellowcolor {
+  -webkit-text-fill-color: #f6ff00; /* For WebKit browsers */
+  color: #f6ff00; /* Standard color property, fallback for browsers not supporting the above property */
+  background-image: none; /* Removes background gradient for this span */
+}
+
+
+.uui-heading-medium-200 {
+  color: var(--untitled-ui--white);
+  text-align: center;
+  text-transform: none;
+  -webkit-text-fill-color: transparent;
   background-image: linear-gradient(rgba(0, 0, 0, .47), #fff 38%, rgba(255, 255, 255, .69) 72%, rgba(0, 0, 0, .34));
   -webkit-background-clip: text;
   background-clip: text;
   flex-flow: column;
-  margin-top: 65px;
+  margin-top: 15px;
   margin-bottom: 15px;
   font-family: Inter Tight, sans-serif;
   font-size: 44px;
