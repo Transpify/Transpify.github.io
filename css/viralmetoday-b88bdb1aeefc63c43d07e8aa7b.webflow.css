@@ -1649,17 +1649,16 @@
 
 .video-center-container {
   display: flex;
-  justify-content: center; /* Ensures horizontal centering */
-  align-items: center; /* Ensures vertical centering if needed */
-  width: 100%; /* Full width of the parent container */
-  height: 100%; /* Full height of the parent container, adjust as needed */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  width: 100%; /* Container takes full width to maintain centering */
 }
 
 .video-center-player {
-  width: 65vw;
-  max-width: 1440px;
-  border-radius: 20px;
-  overflow: hidden; /* Ensures the border-radius is applied properly */
+  width: 65vw; /* Responsive width based on viewport width */
+  max-width: 1440px; /* Maximum width of the video */
+  border-radius: 20px; /* Rounded corners as specified */
+  overflow: hidden; /* Ensures the border-radius clips the video */
 }
 
 .uui-heading-medium-9.ai {
@@ -2895,25 +2894,30 @@
   }
 
   .compare-subclass {
-    width: 100%;
-    align-items: center;
     display: flex;
-    align-content: center;
-  }
-
-  .grid-6 {
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
-    align-items: center;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-  }
+    width: 100%; /* Ensures the container uses full width */
+}
 
-  .ai-shorts {
-    padding-bottom: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-  }
+
+.grid-6 {
+  display: flex;
+  justify-content: center; /* Centers children horizontally */
+  align-items: center; /* Centers children vertically */
+  width: 100%; /* Ensures the grid uses full width of its parent */
+}
+
+.ai-shorts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%; /* Use 100% width to ensure full container usage */
+  padding: 20px; /* Optional: padding can be adjusted as needed */
+}
+
 
   .service-comparison {
     display: none;
