@@ -1646,6 +1646,22 @@
   display: flex;
 }
 
+
+.video-center-container {
+  display: flex;
+  justify-content: center; /* Ensures horizontal centering */
+  align-items: center; /* Ensures vertical centering if needed */
+  width: 100%; /* Full width of the parent container */
+  height: 100%; /* Full height of the parent container, adjust as needed */
+}
+
+.video-center-player {
+  width: 65vw;
+  max-width: 1440px;
+  border-radius: 20px;
+  overflow: hidden; /* Ensures the border-radius is applied properly */
+}
+
 .uui-heading-medium-9.ai {
   -webkit-text-fill-color: transparent;
   background-image: linear-gradient(rgba(0, 0, 0, .54) 8%, rgba(255, 255, 255, .64) 38%, rgba(255, 255, 255, .99) 65%, rgba(0, 0, 0, .46) 95%);
@@ -1653,13 +1669,7 @@
   background-clip: text;
 }
 
-.compare-subclass {
-  color: #fff;
-  width: 100%;
-  margin-top: 58px;
-  margin-left: auto;
-  margin-right: auto;
-}
+
 
 .grid-6 {
   grid-column-gap: 0px;
@@ -2886,6 +2896,9 @@
 
   .compare-subclass {
     width: 100%;
+    align-items: center;
+    display: flex;
+    align-content: center;
   }
 
   .grid-6 {
