@@ -106,7 +106,8 @@
   grid-auto-columns: 1fr;
   margin-top: -65px;
   display: block;
-  overflow: visible;
+  overflow: hidden;
+  /* overflow-x: hidden; Prevent horizontal scroll */
 }
 
 .footer-block-three {
