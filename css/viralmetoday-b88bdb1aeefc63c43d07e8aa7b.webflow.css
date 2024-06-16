@@ -98,9 +98,12 @@
   outline: 2px solid #0050bd;
 }
 
-html{
+html,body{
   scroll-behavior: smooth;
   overflow-x: hidden; 
+  background-image: url('../images/ViralMe_Background.webp');
+  background-position: 0 0;
+  background-size: cover;
 }
 
 .body {
