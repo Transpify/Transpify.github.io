@@ -101,9 +101,10 @@
 html,body{
   scroll-behavior: smooth;
   overflow-x: hidden; 
-  background-image: url('../images/ViralMe_Background.webp');
+  background-image: url('../images/ViralMe_Background.webp') no-repeat center center fixed;
   background-position: 0 0;
   background-size: cover;
+  overscroll-behavior-y: none;
 }
 
 .body {
