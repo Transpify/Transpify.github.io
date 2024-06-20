@@ -192,7 +192,7 @@ html,body{
   -webkit-background-clip: text;
   background-clip: text;
   flex-flow: column;
-  margin-top: 165px;
+  margin-top: 80px;
   margin-bottom: 15px;
   font-family: Inter Tight, sans-serif;
   font-size: 44px;
@@ -622,6 +622,15 @@ html,body{
   font-weight: 300;
 }
 
+.margin-bottom-24px-55 {
+  color: #fff;
+  margin-top: 7px;
+  padding-left: 59px;
+  padding-right: 59px;
+  font-family: Inter Tight, sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+} 
 .hero-image-2 {
   width: 100%;
   max-width: 1200px;
@@ -1616,6 +1625,24 @@ html,body{
   display: flex;
 }
 
+
+.uui-heading-medium-88 {
+  color: #fff;
+  text-align: center;
+  text-transform: none;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, .46), #bdbdbd 28%, #fff 90%, rgba(0, 0, 0, .49));
+  -webkit-background-clip: text;
+  background-clip: text;
+  flex-flow: column;
+  margin-top: 65px;
+  margin-bottom: 15px;
+  font-family: Inter Tight, sans-serif;
+  font-size: 44px;
+  font-weight: 600;
+  line-height: 1.1;
+  display: flex;
+}
 .text-block-24 {
   color: #fff;
   text-align: center;
@@ -3593,6 +3620,8 @@ html,body{
     margin-right: 18px;
     padding-left: 0;
     padding-right: 0;
+    letter-spacing: normal;
+    line-height: 200%;
   }
 
   .hero-image-2 {
