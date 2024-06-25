@@ -919,6 +919,7 @@
                     left: -2px;
                     opacity: 0;
                     position: absolute;
+                    pointer-events: auto;
                     top: -2px;
                     transition: 1s all;
                     width: calc(100% + 4px)
@@ -948,7 +949,7 @@
                   }
 
                   .glowing-wrapper-animations {
-                    pointer-events: none;
+                    pointer-events: auto;
                   }
 
                   .glowing-wrapper-animations * {
@@ -1518,6 +1519,12 @@
             -webkit-mask-size: auto;
             mask-size: auto
           }
+
+          .glowing-wrapper-button {
+            position: relative;
+            z-index: 1000; /* Ensure this is higher than any other z-index in the surrounding elements */
+          }
+
 
           .glowing-wrapper-borders {
             animation-name: borderTurnWithTranslate
